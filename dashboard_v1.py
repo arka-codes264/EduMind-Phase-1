@@ -4,7 +4,7 @@ import plotly.express as px
 import os
 
 st.set_page_config(page_title="EduMind AI Dashboard", layout="wide")
-st.title("🎓 EduMind AI - Student Emotion & Attendance Dashboard (Week 5)")
+st.title("🎓 EduMind AI - Student Emotion & Attendance Dashboard ")
 
 # --- Load Data ---
 if os.path.exists("attendance.csv"):
